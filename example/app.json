@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "App Blocker Example",
+    "slug": "react-native-app-blocker-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.appblocker.example"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "expo.modules.appblocker.example"
+    },
+    "scheme": "appblockerexample",
+    "plugins": [
+      [
+        "../app.plugin.js",
+        {
+          "androidAccessibilityServiceDescription": "App Blocker Example uses this service to show a blocking screen when you open a blocked app during a session. It does not read or send any screen content."
+        }
+      ]
+    ],
+    "experiments": {
+      "autolinkingModuleResolution": true
+    }
+  }
+}

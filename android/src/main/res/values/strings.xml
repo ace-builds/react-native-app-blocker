@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown in Android's Accessibility settings. Override it with the config plugin's
+         `androidAccessibilityServiceDescription` option, or define the same string name
+         in your app (add values-xx/ folders there for translations). -->
+    <string name="app_blocker_accessibility_service_description">This app uses an Accessibility Service to detect when you open a blocked app during a focus session and show a blocking screen instead.\n\nIt only acts while a session is running. It does not read, record or transmit screen content, keystrokes or personal data.\n\nYou can turn it off at any time in Accessibility settings.</string>
+</resources>
